@@ -1,0 +1,66 @@
+/* src/css/custom.css */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap&subset=cyrillic");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap&subset=cyrillic");
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&display=swap&subset=cyrillic");
+
+:root {
+  --ifm-color-primary: #f9a729;
+  --ifm-color-primary-dark: #d68e1f;
+  --ifm-color-primary-light: #ffc45e;
+
+  --ifm-color-info: #73c2fb;
+  --ifm-color-success: #a8e6cf;
+  --ifm-color-warning: #ffe599;
+  --ifm-color-danger: #f6a5a5;
+
+  --ifm-background-color: #000000;
+  --ifm-navbar-background-color: #000000;
+  --ifm-footer-background-color: #000000;
+
+  --ifm-navbar-link-color: #ffffff;
+  --ifm-navbar-link-hover-color: #f9a729;
+  --ifm-footer-color: #ffffff;
+  --ifm-footer-link-color: #f9a729;
+
+
+  --ifm-font-family-base: "Inter", sans-serif;
+  --ifm-heading-font-family: "Montserrat", sans-serif;
+  --ifm-font-family-monospace: "PT Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+}
+
+
+html[data-theme='dark'] {
+  --ifm-background-color: rgb(9, 10, 12);
+  --ifm-color-content: rgb(245, 245, 245);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--ifm-heading-font-family);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ifm-color-primary);
+  line-height: 1.2;
+}
+
+code {
+  background-color: #1a1a1a;
+  color: #ff914d;
+  font-family: var(--ifm-font-family-monospace);
+  font-weight: 500;
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+  font-size: 95%;
+}
+
+.footer {
+  background: linear-gradient(to bottom, #000000 0%, #111111 100%) !important;
+  color: var(--ifm-footer-color, #ffffff) !important;
+}
+
+.footer a {
+  color: var(--ifm-footer-link-color, #f9a729) !important;
+}
+
+.footer a:hover {
+  color: #ffc45e !important;
+}
