@@ -1,0 +1,42 @@
+# ---- Node & package managers ----
+node_modules/
+.npm/
+.pnpm-store/
+
+# ---- Docusaurus build artifacts ----
+.docusaurus/
+build/
+
+# ---- Caches ----
+.cache/
+.cache-loader/
+
+# ---- Logs ----
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# ---- Environment files ----
+.env
+.env.*.local
+
+# ---- Tooling & hosts ----
+.vercel/
+.netlify/
+
+# ---- Test coverage ----
+coverage/
+
+# ---- Editors & OS ----
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ---- Temporary files ----
+*.tmp
+*.temp
