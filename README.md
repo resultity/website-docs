@@ -9,7 +9,7 @@ Inside the docs you’ll find: **Cloud** (drop-in, OpenAI-compatible routing ove
 This documentation reflects the **early Testnet / pre-mainnet** stage and a **pre-TGE tokenomics draft**. It explains Resultity Contribution Points (RCP) and how they map to **$RTITY** at TGE, outlines near-term product surfaces (Cloud API, Node app, dashboard), and sets expectations for the path toward mainnet and community governance. Content will iterate as milestones land; the goal is to align node operators, developers, and partners on capabilities, economics, and where to plug in now.
 
 
-## Installation
+## Installation 
 
 ```bash
 yarn
